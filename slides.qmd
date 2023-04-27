@@ -11,13 +11,10 @@ author:
     - name: Julien Lebranchu
     - name: Regis Hocde
     - name: Claudia Restrepo-Ortiz
+css: style.css
 ---
 
 # Bilan Marbec Green
-
-## Bilan Marbec Green
-
-Claire Carre
 
 # Resources numériques
 
@@ -51,21 +48,88 @@ Pour en bénéficier, il faut:
 
 : Resources de stockage {#tbl-stockage}
 
-## Resoucres disponibles: cloud {.smaller}
+## Resoucres disponibles: cloud {.smaller .scrollable}
 
-| Fournisseur                                      | Stockage                | Edition type Google Drive |
+| Fournisseur                                   | Stockage      | Edition type Google Drive |
 |------------------------|------------------------|-------------------------|
-| [IRD](https://drive.ird.fr)[^1]                  | 5 To partages | Oui                       |
-| [IFREMER](https://cloud.ifemer.fr)               | 5 Go/pers.              | Oui                       |
-| [CNRS](https://mycore.core-cloud.net)[^2]        | 100 Go/pers.            | Oui                       |
-| [RENATER](https://drive.demo.renater.fr)[^3]     | 20 Go/pers.             | Oui                       |
-| [WIMI](https://www.wimi-teamwork.com/fr/)[^4] |                         |                           |
-| [LEVIIA](https://www.leviia.com/)[^5]            |                         |                           |
+| [IRD](https://drive.ird.fr)[^1]               | 5 To partages | Oui                       |
+| [IFREMER](https://cloud.ifemer.fr)            | 5 Go/pers.    | Oui                       |
+| [CNRS](https://mycore.core-cloud.net)[^2]     | 100 Go/pers.  | Oui                       |
+| [RENATER](https://drive.demo.renater.fr)[^3]  | 20 Go/pers.   | Oui                       |
+| [WIMI](https://www.wimi-teamwork.com/fr/)[^4] |               |                           |
+| [LEVIIA](https://www.leviia.com/)[^5]         |               |                           |
+| [TEAMS](https://teams.microsoft.com/)[^6]     |               | Oui                       |
 
-: Resources de type Cloud {#tbl-cloud tbl-colwidths=\[10,30,30,30\]}
+: Resources de type Cloud {#tbl-cloud}
 
 [^1]: Pour projets. Demande a faire aupres de Julien Barde
+
 [^2]: Possibilite de demande d'un espace MARBEC
+
 [^3]: Phase de test, pas operationnel
-[^4]: Dropbox français/ \[Payant, hébergé en France\]
+
+[^4]: Dropbox français. Payant, hébergé en France
+
 [^5]: Possibilité de présentation par la société (Claire Carré) Payant/hébergé en france
+
+[^6]: Possibilite de connexion avec login IRD et UM
+
+## Resoucres disponibles: outils collaboratifs {.smaller .scrollable}
+
+| Fournisseur                                  | Utilisation                 | Partenariats externes |
+|------------------------|------------------------|-------------------------|
+| [TEAMS](https://teams.microsoft.com/)        | Alternative a Slack         | Oui                   |
+| [IRD](https://tchat.ird.fr/home)             | Chat collaboratif           | Non                   |
+| [IFREMER](https://gitlabchat.ifremer.fr)[^7] | Alternative a Slack         | Non                   |
+| [CNRS](https://cnrs.citadel.team)[^8]        | Alternative a Slack         | Oui                   |
+| [FRAMATEAM](https://framateam.org)[^9]       |                             |                       |
+|                                              |                             |                       |
+| [PAD IRD](https://pad.ird.fr)                | Prise de note collaborative | Oui                   |
+| [FRAMAPAD](https://pad.ird.fr)               | Prise de note collaborative |                       |
+
+: Resources pour travail collaboratif {#tbl-colab}
+
+[^7]: S'appuie sur Mattermost
+
+[^8]: Outil Thales Group hébergé en France
+
+[^9]: S'appuie sur Mattermost
+
+## Discussion
+
+-   Recommendations pour la direction?
+
+    -   Utilisation des resources institutionnelles?
+
+    -   Ou solutions mutualisees intra MARBEC (type WIMI, LEVIA, FRAMATEAM)?
+
+-   Besoins non pourvus?
+
+# Science Ouverte
+
+## Réseau science ouverte {.smaller}
+
+Référents : Julien Barde (IRD) et Julien Lebranchu (IRD)
+
+> Le réseau "Sciences ouvertes" a pour objectif d'orienter les agents de l'UMR vers les bonnes pratiques de gestion des données (principes et data FAIR), des codes (contrôle de version) et des documents,
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/FAIR_data_principles.jpg/800px-FAIR_data_principles.jpg){fig-align=center width=10px}
+
+> L'objectif est d'aider ceux qui le souhaitent à répondre aux objectifs de la "Science Ouverte" et aux contraintes posées dans ce sens par les bailleurs (H2020, ANR) ou d'un point de vue juridique (plan national pour la science ouverte).
+
+##  Gestion des donnees
+
+Plusieurs solutions existent pour une gestion perenne des donnees.
+
+-   [Entropot](https://entrepot.recherche.data.gouv.fr/) : solution nationale geree par l'etat
+    -   Un entrepot par institut: [IRD](https://entrepot.recherche.data.gouv.fr/dataverse/ird), [UM](https://entrepot.recherche.data.gouv.fr/dataverse/umontpellier)
+-   [Datasud](https://dataverse.ird.fr/): solution IRD
+-   [Seanoe/Sextant](http://data.ifremer.fr/Deposer-Archiver-des-donnees): Solution Ifremer
+-   [Zenodo](https://zenodo.org)
+    -  Existence d'une [Communaute MARBEC](https://zenodo.org/communities/umr-marbec?page=1&size=20)
+
+## Gestion des codes
+
+Pour une bonne gestion des codes, utilisation de forges logicielles:
+
+- [GitHub](https://github.com)
