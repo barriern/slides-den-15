@@ -31,7 +31,7 @@ Pour en bénéficier, il faut:
 ## Resources disponibles: calcul {.smaller}
 
 | Resources  | Capacité                                                                        | Applications                       |
-|------------------|------------------------------------|------------------|
+|-------------------|------------------------------------|-------------------|
 | Marbec-GPU | 2 processeurs Xeon 8380 (40 coeurs / 80 threads),1,5 To de mémoire vive         | Calcul sur GPU, i.e. deep learning |
 | Datarmor   | 11088 coeurs,128 Go de RAM                                                      | Calcul sur CPU                     |
 | Meso\@LR   | 6 noeuds de 28 coeurs (bi processeurs Intel Xeon E5-2680 v4 2,4 Ghz (broadwell) | Calcul sur CPU                     |
@@ -41,7 +41,7 @@ Pour en bénéficier, il faut:
 ## Resources disponibles: stockage {.smaller}
 
 | Resources   | Capacité                        | Applications                                              |
-|------------------|-------------------|-----------------------------------|
+|-------------------|-------------------|-----------------------------------|
 | Marbec-Data | 448 To partagés                 | Stockage de données issues de projet                      |
 | Datarmor    | 1 To/personne + 570.96 partagés | Stockage de données issues de calcul (sorties de modèles) |
 | Meso\@LR    | 200 To partagés                 | Stockage de données issues de calcul (sorties de modèles) |
@@ -113,11 +113,11 @@ Référents : Julien Barde (IRD) et Julien Lebranchu (IRD)
 
 > Le réseau "Sciences ouvertes" a pour objectif d'orienter les agents de l'UMR vers les bonnes pratiques de gestion des données (principes et data FAIR), des codes (contrôle de version) et des documents,
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/FAIR_data_principles.jpg/800px-FAIR_data_principles.jpg){fig-align=center width=10px}
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/FAIR_data_principles.jpg/800px-FAIR_data_principles.jpg){fig-align="center" width="10px"}
 
 > L'objectif est d'aider ceux qui le souhaitent à répondre aux objectifs de la "Science Ouverte" et aux contraintes posées dans ce sens par les bailleurs (H2020, ANR) ou d'un point de vue juridique (plan national pour la science ouverte).
 
-##  Gestion des donnees
+## Gestion des donnees
 
 Plusieurs solutions existent pour une gestion perenne des donnees.
 
@@ -126,10 +126,36 @@ Plusieurs solutions existent pour une gestion perenne des donnees.
 -   [Datasud](https://dataverse.ird.fr/): solution IRD
 -   [Seanoe/Sextant](http://data.ifremer.fr/Deposer-Archiver-des-donnees): Solution Ifremer
 -   [Zenodo](https://zenodo.org)
-    -  Existence d'une [Communaute MARBEC](https://zenodo.org/communities/umr-marbec?page=1&size=20)
+    -   Existence d'une [Communaute MARBEC](https://zenodo.org/communities/umr-marbec?page=1&size=20)
 
 ## Gestion des codes
 
 Pour une bonne gestion des codes, utilisation de forges logicielles:
 
-- [GitHub](https://github.com)
+-   [GitHub](https://github.com)
+    -   Organization [MARBEC](https://github.com/umr-marbec)
+- [Gitlab](https://gitlab.com/)
+-   [Forge IRD](https://forge.ird.fr/explore): solution IRD basee sur GitLab[^10]
+-   [Forge Ifremer](https://gitlab.ifremer.fr): solution Ifremer basee sur GitLab
+
+[^10]: Demande d'acces a faire par mail a [Julien Lebranchu](mailto:julien.lebranchu@ird.fr)
+
+## Discussion
+
+- Quel canal pour la gestion des donnnes a long terme?
+    - Zenodo? Solutions institutionnelles?
+- Gestion des codes
+    - Forges commerciales? Fortes institutionnelles? Les deux?
+
+```{mermaid}
+flowchart LR
+    idw(Workspace)
+    idl(Local)
+    idgh(GitHub)
+    idfi(Forge inst.)
+    idw --> idl
+    idl --> idgh
+    idl --> idfi
+```
+
+- Quelles licences pour les logiciels? les donnees?
