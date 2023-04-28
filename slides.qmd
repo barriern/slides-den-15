@@ -31,7 +31,7 @@ Pour en bénéficier, il faut:
 ## Resources disponibles: calcul {.smaller}
 
 | Resources  | Capacité                                                                        | Applications                       |
-|-------------------|------------------------------------|-------------------|
+|------------------|-------------------------------------|------------------|
 | Marbec-GPU | 2 processeurs Xeon 8380 (40 coeurs / 80 threads),1,5 To de mémoire vive         | Calcul sur GPU, i.e. deep learning |
 | Datarmor   | 11088 coeurs,128 Go de RAM                                                      | Calcul sur CPU                     |
 | Meso\@LR   | 6 noeuds de 28 coeurs (bi processeurs Intel Xeon E5-2680 v4 2,4 Ghz (broadwell) | Calcul sur CPU                     |
@@ -41,7 +41,7 @@ Pour en bénéficier, il faut:
 ## Resources disponibles: stockage {.smaller}
 
 | Resources   | Capacité                        | Applications                                              |
-|-------------------|-------------------|-----------------------------------|
+|------------------|--------------------|----------------------------------|
 | Marbec-Data | 448 To partagés                 | Stockage de données issues de projet                      |
 | Datarmor    | 1 To/personne + 570.96 partagés | Stockage de données issues de calcul (sorties de modèles) |
 | Meso\@LR    | 200 To partagés                 | Stockage de données issues de calcul (sorties de modèles) |
@@ -51,7 +51,7 @@ Pour en bénéficier, il faut:
 ## Resoucres disponibles: cloud {.smaller .scrollable}
 
 | Fournisseur                                   | Stockage      | Edition type Google Drive |
-|------------------------|------------------------|-------------------------|
+|----------------------------------|------------------|--------------------|
 | [IRD](https://drive.ird.fr)[^1]               | 5 To partages | Oui                       |
 | [IFREMER](https://cloud.ifemer.fr)            | 5 Go/pers.    | Oui                       |
 | [CNRS](https://mycore.core-cloud.net)[^2]     | 100 Go/pers.  | Oui                       |
@@ -77,7 +77,7 @@ Pour en bénéficier, il faut:
 ## Resoucres disponibles: outils collaboratifs {.smaller .scrollable}
 
 | Fournisseur                                  | Utilisation                 | Partenariats externes |
-|------------------------|------------------------|-------------------------|
+|-------------------------------|----------------------|-------------------|
 | [TEAMS](https://teams.microsoft.com/)        | Alternative a Slack         | Oui                   |
 | [IRD](https://tchat.ird.fr/home)             | Chat collaboratif           | Non                   |
 | [IFREMER](https://gitlabchat.ifremer.fr)[^7] | Alternative a Slack         | Non                   |
@@ -134,18 +134,30 @@ Pour une bonne gestion des codes, utilisation de forges logicielles:
 
 -   [GitHub](https://github.com)
     -   Organization [MARBEC](https://github.com/umr-marbec)
-- [Gitlab](https://gitlab.com/)
+-   [Gitlab](https://gitlab.com/)
 -   [Forge IRD](https://forge.ird.fr/explore): solution IRD basee sur GitLab[^10]
 -   [Forge Ifremer](https://gitlab.ifremer.fr): solution Ifremer basee sur GitLab
 
 [^10]: Demande d'acces a faire par mail a [Julien Lebranchu](mailto:julien.lebranchu@ird.fr)
 
+## Licences {.smaller}
+
+Quel choix de licence pour les logiciels/des donnees[^11]?
+
+[^11]: References: [1](https://www.data.gouv.fr/fr/pages/legal/licences/), [2](https://hal.science/hal-02434287), [3](https://hal.science/hal-02399517)
+
+-   Copyleft fort (GNU GPL, CeCILL-2.1)
+-   Copyleft faible (GNU LGPL, Mozilla MPL, CeCILL-C)
+-   Sans copyleft (MIT, Apache, BSD, CeCILL-B)
+
+![](img/copyleft.png){fig-align="center" width="371"}
+
 ## Discussion
 
-- Quel canal pour la gestion des donnnes a long terme?
-    - Zenodo? Solutions institutionnelles?
-- Gestion des codes
-    - Forges commerciales? Fortes institutionnelles? Les deux?
+-   Quel canal pour la gestion des donnnes a long terme?
+    -   Zenodo? Solutions institutionnelles?
+-   Gestion des codes
+    -   Forges commerciales? Fortes institutionnelles? Les deux?
 
 ```{mermaid}
 flowchart LR
@@ -158,4 +170,34 @@ flowchart LR
     idl --> idfi
 ```
 
-- Quelles licences pour les logiciels? les donnees?
+-   Recommendations pour les licences?
+
+# Animation du DEN
+
+## Formations {.smaller .scrollable}
+
+Inscriptions aux ateliers du DEN: [Google Sheet](https://docs.google.com/spreadsheets/d/18PXNxCAX1SNdk8Dqi0qC5FaayDYT_NVBLgMqegx5pgQ/edit?usp=sharing)
+
+| Formation             | Date                          | Formateur                                                   |
+|------------------|------------------|-------------------------------------|
+| Git                   | 06/05/21, 11/05/2023          | Nicolas Barrier, Criscely Lujan-Paredes, Witold Podlejski   |
+| Datarmor              | 08/03/22                      | Nicolas Barrier                                             |
+| R                     | 10-11/03/22                   | Laure Velez, Monique Simier                                 |
+| SIG                   | 15/02/22, 14/02/23            | David Kaplan                                                |
+| Tidyverse             | 5-6/12/22, **Mai/Juin 2023?** | Laure Velez, Gaël Mariani, Monique Simier, Mathieu Depetris |
+| Package mFD           | **Mai 2023?**                 | Camille Magneville, Sébastien Villéger                      |
+| Analyses multivariées | 22-23/05/23                   | Monique Simier                                              |
+
+: Formations effectuees {#tbl-formations}
+
+## Formations demandées
+
+Formations cochees par \> 50 personnes et jamais pourvues:
+
+-   Python
+-   (R)Markdown
+-   Bonnes pratiques en analyse de données
+-   Les stats avec R niveau 2
+-   Les graphes
+
+**Besoin de volontaires pour animer ces formations!**

@@ -1,2 +1,11 @@
 slides.html
 slides_files
+slides.aux
+.gitignore
+slides.log
+slides.md
+slides.pdf
+slides.tex
+slides.fdb_latexmk
+slides.fls
+slides.synctex(busy)
