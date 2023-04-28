@@ -30,7 +30,7 @@ Pour en bénéficier, il faut:
 ## Calcul {.smaller}
 
 | Resources  | Capacité                                                                        | Applications                       |
-|------------------|-------------------------------------|------------------|
+|------------------|------------------------------------|------------------|
 | Marbec-GPU | 2 processeurs Xeon 8380 (40 coeurs / 80 threads),1,5 To de mémoire vive         | Calcul sur GPU, i.e. deep learning |
 | Datarmor   | 11088 coeurs,128 Go de RAM                                                      | Calcul sur CPU                     |
 | Meso\@LR   | 6 noeuds de 28 coeurs (bi processeurs Intel Xeon E5-2680 v4 2,4 Ghz (broadwell) | Calcul sur CPU                     |
@@ -40,7 +40,7 @@ Pour en bénéficier, il faut:
 ## Stockage {.smaller}
 
 | Resources   | Capacité                        | Applications                                              |
-|------------------|--------------------|----------------------------------|
+|-------------------|--------------------|----------------------------------|
 | Marbec-Data | 448 To partagés                 | Stockage de données issues de projet                      |
 | Datarmor    | 1 To/personne + 570.96 partagés | Stockage de données issues de calcul (sorties de modèles) |
 | Meso\@LR    | 200 To partagés                 | Stockage de données issues de calcul (sorties de modèles) |
@@ -50,7 +50,7 @@ Pour en bénéficier, il faut:
 ## Cloud {.smaller .scrollable}
 
 | Fournisseur                                   | Stockage      | Edition type Google Drive |
-|----------------------------------|------------------|--------------------|
+|----------------------------------|-------------------|--------------------|
 | [IRD](https://drive.ird.fr)[^1]               | 5 To partages | Oui                       |
 | [IFREMER](https://cloud.ifemer.fr)            | 5 Go/pers.    | Oui                       |
 | [CNRS](https://mycore.core-cloud.net)[^2]     | 100 Go/pers.  | Oui                       |
@@ -82,7 +82,6 @@ Pour en bénéficier, il faut:
 | [IFREMER](https://gitlabchat.ifremer.fr)[^7] | Alternative a Slack         | Non                   |
 | [CNRS](https://cnrs.citadel.team)[^8]        | Alternative a Slack         | Oui                   |
 | [FRAMATEAM](https://framateam.org)[^9]       |                             |                       |
-|                                              |                             |                       |
 | [PAD IRD](https://pad.ird.fr)                | Prise de note collaborative | Oui                   |
 | [FRAMAPAD](https://pad.ird.fr)               | Prise de note collaborative |                       |
 
@@ -178,7 +177,7 @@ flowchart LR
 Inscriptions aux ateliers du DEN: [Google Sheet](https://docs.google.com/spreadsheets/d/18PXNxCAX1SNdk8Dqi0qC5FaayDYT_NVBLgMqegx5pgQ/edit?usp=sharing)
 
 | Formation             | Date                          | Formateur                                                   |
-|------------------|------------------|-------------------------------------|
+|------------------|------------------|------------------------------------|
 | Git                   | 06/05/21, 11/05/2023          | Nicolas Barrier, Criscely Lujan-Paredes, Witold Podlejski   |
 | Datarmor              | 08/03/22                      | Nicolas Barrier                                             |
 | R                     | 10-11/03/22                   | Laure Velez, Monique Simier                                 |
@@ -213,4 +212,4 @@ Formations cochees par \> 50 personnes et jamais pourvues:
 
 -   Autres idees d'evenements?
 
-    -  Participations a des evenements type Ocean Hackathon?
+    -   Participations a des evenements type Ocean Hackathon?
