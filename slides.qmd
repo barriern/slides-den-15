@@ -2,7 +2,7 @@
 title: "Réunion DEN"
 format:
   revealjs:
-    theme: default
+    theme: [default, custom.scss]
 author:
     - name: Laure Velez
     - name: Nicolas Barrier
@@ -11,7 +11,6 @@ author:
     - name: Julien Lebranchu
     - name: Regis Hocde
     - name: Claudia Restrepo-Ortiz
-css: style.css
 ---
 
 # Bilan Marbec Green
@@ -28,7 +27,7 @@ Pour en bénéficier, il faut:
 -   Faire la demande aupres de [Laure Velez et Nicolas Barrier](mailto:laure.velez@umontpellier.fr,nicolas.barrier@ird.fr)
 -   Signer la charte du DEN (disponible sur le site MARBEC)
 
-## Resources disponibles: calcul {.smaller}
+## Calcul {.smaller}
 
 | Resources  | Capacité                                                                        | Applications                       |
 |------------------|-------------------------------------|------------------|
@@ -38,7 +37,7 @@ Pour en bénéficier, il faut:
 
 : Resources de calcul {#tbl-calcul}
 
-## Resources disponibles: stockage {.smaller}
+## Stockage {.smaller}
 
 | Resources   | Capacité                        | Applications                                              |
 |------------------|--------------------|----------------------------------|
@@ -48,7 +47,7 @@ Pour en bénéficier, il faut:
 
 : Resources de stockage {#tbl-stockage}
 
-## Resoucres disponibles: cloud {.smaller .scrollable}
+## Cloud {.smaller .scrollable}
 
 | Fournisseur                                   | Stockage      | Edition type Google Drive |
 |----------------------------------|------------------|--------------------|
@@ -74,7 +73,7 @@ Pour en bénéficier, il faut:
 
 [^6]: Possibilite de connexion avec login IRD et UM
 
-## Resoucres disponibles: outils collaboratifs {.smaller .scrollable}
+## Outils collaboratifs {.smaller .scrollable}
 
 | Fournisseur                                  | Utilisation                 | Partenariats externes |
 |-------------------------------|----------------------|-------------------|
@@ -124,7 +123,7 @@ Plusieurs solutions existent pour une gestion perenne des donnees.
 -   [Entropot](https://entrepot.recherche.data.gouv.fr/) : solution nationale geree par l'etat
     -   Un entrepot par institut: [IRD](https://entrepot.recherche.data.gouv.fr/dataverse/ird), [UM](https://entrepot.recherche.data.gouv.fr/dataverse/umontpellier)
 -   [Datasud](https://dataverse.ird.fr/): solution IRD
--   [Seanoe/Sextant](http://data.ifremer.fr/Deposer-Archiver-des-donnees): Solution Ifremer
+-   [Seanoe/Sextant](http://data.ifremer.fr/Deposer-Archiver-des-donnees): Solutions Ifremer
 -   [Zenodo](https://zenodo.org)
     -   Existence d'une [Communaute MARBEC](https://zenodo.org/communities/umr-marbec?page=1&size=20)
 
@@ -190,7 +189,7 @@ Inscriptions aux ateliers du DEN: [Google Sheet](https://docs.google.com/spreads
 
 : Formations effectuees {#tbl-formations}
 
-## Formations demandées
+## Forte demande!
 
 Formations cochees par \> 50 personnes et jamais pourvues:
 
@@ -201,3 +200,17 @@ Formations cochees par \> 50 personnes et jamais pourvues:
 -   Les graphes
 
 **Besoin de volontaires pour animer ces formations!**
+
+**Timing de ces formations? Trop frequent, trop peu frequent?**
+
+## Animations diverses
+
+-   Organisation d'une journee/semaine de nettoyage numerique?
+
+    -   Digital Cleanup Day du 13 au 17 mars (IRD occitanie)
+
+    -   Action combinee avec d'autres dispositifs (DAL)?
+
+-   Autres idees d'evenements?
+
+    -  Participations a des evenements type Ocean Hackathon?

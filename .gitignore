@@ -8,4 +8,8 @@ slides.pdf
 slides.tex
 slides.fdb_latexmk
 slides.fls
-slides.synctex(busy)
+slides.synctex
+slides.snm
+slides.synctex.gz
+slides.toc
+slides.nav
