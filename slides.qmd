@@ -31,9 +31,9 @@ Pour en bénéficier, il faut:
 
 | Resources  | Capacité                                                                        | Applications                       |
 |-------------------|----------------------------------|-------------------|
-| Marbec-GPU | 2 processeurs Xeon 8380 (40 coeurs / 80 threads),1,5 To de mémoire vive         | Calcul sur GPU, i.e. deep learning |
-| Datarmor   | 11088 coeurs,128 Go de RAM                                                      | Calcul sur CPU                     |
-| Meso\@LR   | 6 noeuds de 28 coeurs (bi processeurs Intel Xeon E5-2680 v4 2,4 Ghz (broadwell) | Calcul sur CPU                     |
+| Marbec-GPU | 2 processeurs Xeon 8380 (40 coeurs / 80 threads), 1.5 To de mémoire vive         | Calcul sur GPU, i.e. deep learning |
+| Datarmor   | 11088 coeurs, 128 Go de RAM                                                      | Calcul sur CPU                     |
+| Meso\@LR   | 6 noeuds de 28 coeurs (bi processeurs Intel Xeon E5-2680 v4 2.4 Ghz (broadwell) | Calcul sur CPU                     |
 
 : Resources de calcul {#tbl-calcul}
 
@@ -64,11 +64,11 @@ Pour en bénéficier, il faut:
 
 | Fournisseur                               | Partenariats externes | Remarque                                                  |
 |---------------------------------|--------------------|--------------------|
-| [TEAMS](https://teams.microsoft.com/)     | Oui                   | Alternative a Slack                                       |
+| [TEAMS](https://teams.microsoft.com/)     | Oui                   | Alternative à Slack                                       |
 | [IRD](https://tchat.ird.fr/home)          | Non                   | Chat collaboratif                                         |
-| [IFREMER](https://gitlabchat.ifremer.fr)  | Non                   | Alternative a Slack. S'appuie sur Mattermost              |
-| [CNRS](https://cnrs.citadel.team)         | Oui                   | Alternative a Slack. Outil Thales Group hébergé en France |
-| [WIMI](https://www.wimi-teamwork.com/fr/) |                       | Alternative a Slack.                                      |
+| [IFREMER](https://gitlabchat.ifremer.fr)  | Non                   | Alternative à Slack. S'appuie sur Mattermost              |
+| [CNRS](https://cnrs.citadel.team)         | Oui                   | Alternative à Slack. Outil Thales Group hébergé en France |
+| [WIMI](https://www.wimi-teamwork.com/fr/) |                       | Alternative à Slack.                                      |
 | [FRAMATEAM](https://framateam.org)        |                       | S'appuie sur Mattermost                                   |
 | [PAD IRD](https://pad.ird.fr)             | Oui                   | Prise de note collaborative                               |
 | [FRAMAPAD](https://pad.ird.fr)            |                       | Prise de note collaborative                               |
