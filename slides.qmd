@@ -80,8 +80,9 @@ Pour en bénéficier, il faut:
 -   Recommendations pour la direction?
 
     -   Utilisation des ressources institutionnelles?
-
-    -   Ou solutions mutualisées intra MARBEC (type WIMI, LEVIA, FRAMATEAM)?
+        - Hébergement en France (Montpellier, Lyon, Brest)
+        - Collaboration inter-tutelle?
+    -   Solutions mutualisées intra MARBEC (type WIMI, LEVIA, FRAMATEAM)?
 
 -   Besoins non pourvus?
 
@@ -99,7 +100,7 @@ Référents : Julien Barde (IRD) et Julien Lebranchu (IRD)
 
 ## Gestion des données
 
-Plusieurs solutions existent pour une gestion perenne des données.
+Plusieurs solutions existent pour une gestion pérenne des données.
 
 -   [Entropot](https://entrepot.recherche.data.gouv.fr/) : solution nationale gérée par l'etat
     -   Un entrepôt par institut: [IRD](https://entrepot.recherche.data.gouv.fr/dataverse/ird), [UM](https://entrepot.recherche.data.gouv.fr/dataverse/umontpellier)
@@ -107,49 +108,40 @@ Plusieurs solutions existent pour une gestion perenne des données.
 -   [Seanoe/Sextant](http://data.ifremer.fr/Deposer-Archiver-des-donnees): solutions Ifremer
 -   [Zenodo](https://zenodo.org)
     -   Existence d'une [Communaute MARBEC](https://zenodo.org/communities/umr-marbec?page=1&size=20)
+    - Autres documents (rapports, présentations, etc.)
 
 ## Gestion des codes
 
 Pour une bonne gestion des codes, utilisation de forges logicielles:
 
--   [GitHub](https://github.com)
-    -   Organization [MARBEC](https://github.com/umr-marbec)
--   [Gitlab](https://gitlab.com/)
--   [Forge IRD](https://forge.ird.fr/explore): solution IRD basée sur GitLab[^1]
--   [Forge Ifremer](https://gitlab.ifremer.fr): solution Ifremer basée sur GitLab
+- Solutions commerciales:
+    -   [GitHub](https://github.com) (organisation [MARBEC](https://github.com/umr-marbec))
+    -   [Gitlab](https://gitlab.com/)
+- Solutions institutionnelles:
+    -   [Forge IRD](https://forge.ird.fr/explore): solution IRD basée sur GitLab[^1]
+    -   [Forge Ifremer](https://gitlab.ifremer.fr): solution Ifremer basée sur GitLab
 
-[^1]: Demande d'acces a faire par mail a [Julien Lebranchu](mailto:julien.lebranchu@ird.fr)
+[^1]: Demande d'accès à faire par mail a [Julien Lebranchu](mailto:julien.lebranchu@ird.fr)
 
-## Licences {.smaller}
+## Licences
 
-Quel choix de licence pour les logiciels/des données[^2]?
+- Quel choix de licence pour les logiciels/des données[^2]?
+- Arbre de décision pour accompagner les créateurs de logiciels/librairies?
 
 [^2]: References: [1](https://www.data.gouv.fr/fr/pages/legal/licences/), [2](https://hal.science/hal-02434287), [3](https://hal.science/hal-02399517)
 
--   Copyleft fort (GNU GPL, CeCILL-2.1)
--   Copyleft faible (GNU LGPL, Mozilla MPL, CeCILL-C)
--   Sans copyleft (MIT, Apache, BSD, CeCILL-B)
-
-![](img/copyleft.png){fig-align="center" width="380"}
+![](img/copyleft.png){fig-align="center" width="500"}
 
 ## Discussion
 
--   Quel canal pour la gestion des données a long terme?
+-   Quel canal pour la gestion des données à long terme?
     -   Zenodo? Solutions institutionnelles?
 -   Gestion des codes
-    -   Forges commerciales? Fortes institutionnelles? Les deux?
-
-```{mermaid}
-flowchart LR
-    idw(Workspace)
-    idl(Local)
-    idgh(GitHub)
-    idfi(Forge inst.)
-    idw --> idl
-    idl --> idgh
-    idl --> idfi
-```
-
+    - Forges commerciales?
+        - Plus de visibilité
+    - Forges institutionnelles?
+        - Moins visible, collaborateurs externes
+        - Plus de sécurité (hébergement local)
 -   Recommendations pour les licences?
 
 # Animation du DEN
@@ -170,9 +162,9 @@ Inscriptions aux ateliers du DEN: [Google Sheet](https://docs.google.com/spreads
 
 : Formations effectuées {#tbl-formations}
 
-## Forte demande!
+## Formations!
 
-Formations cochées par \> 50 personnes et jamais pourvues:
+Formations cochées par $> 50$ personnes et jamais pourvues:
 
 -   Python
 -   (R)Markdown
@@ -192,6 +184,6 @@ Formations cochées par \> 50 personnes et jamais pourvues:
 
     -   Action combinée avec d'autres dispositifs (DAL)?
 
--   Autres idées d'evenements?
+-   Autres idées d'évènements?
 
-    -   Participations à des évènements type Ocean Hackathon?
+    -   Participations à des évènements de type Ocean Hackathon?
