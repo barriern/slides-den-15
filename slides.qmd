@@ -30,7 +30,7 @@ Pour en bénéficier, il faut:
 ## Calcul {.smaller}
 
 | Resources  | Capacité                                                                        | Applications                       |
-|------------------|------------------------------------|------------------|
+|-------------------|----------------------------------|-------------------|
 | Marbec-GPU | 2 processeurs Xeon 8380 (40 coeurs / 80 threads),1,5 To de mémoire vive         | Calcul sur GPU, i.e. deep learning |
 | Datarmor   | 11088 coeurs,128 Go de RAM                                                      | Calcul sur CPU                     |
 | Meso\@LR   | 6 noeuds de 28 coeurs (bi processeurs Intel Xeon E5-2680 v4 2,4 Ghz (broadwell) | Calcul sur CPU                     |
@@ -49,49 +49,31 @@ Pour en bénéficier, il faut:
 
 ## Cloud {.smaller .scrollable}
 
-| Fournisseur                                   | Stockage      | Edition |
-|-----------------------------------------------|---------------|---------|
-| [IRD](https://drive.ird.fr)[^1]               | 5 To partages | Oui     |
-| [IFREMER](https://cloud.ifemer.fr)            | 5 Go/pers.    | Oui     |
-| [CNRS](https://mycore.core-cloud.net)[^2]     | 100 Go/pers.  | Oui     |
-| [TEAMS](https://teams.microsoft.com/)[^3]     |               | Oui     |
-| [RENATER](https://drive.demo.renater.fr)[^4]  | 20 Go/pers.   | Oui     |
-| [WIMI](https://www.wimi-teamwork.com/fr/)[^5] |               |         |
-| [LEVIIA](https://www.leviia.com/)[^6]         |               |         |
+| Fournisseur                              | Stockage      | Edition | Remaque                                                                  |
+|-------------------|------------------|------------------|------------------|
+| [IRD](https://drive.ird.fr)              | 5 To partages | Oui     | NextCloud. Pour projets. Demande a faire aupres de Julien Barde          |
+| [IFREMER](https://cloud.ifemer.fr)       | 5 Go/pers.    | Oui     | OwnCloud                                                                 |
+| [CNRS](https://mycore.core-cloud.net)    | 100 Go/pers.  | Oui     | OwnCloud. Possibilite de demande d'un espace MARBEC                      |
+| [TEAMS](https://teams.microsoft.com/)    |               | Oui     | Possibilite de connexion avec login IRD et UM. Nécessité compte OneDrive |
+| [RENATER](https://drive.demo.renater.fr) | 20 Go/pers.   | Oui     | NextCloud. Phase de test, pas opérationnel                               |
+| [LEVIIA](https://www.leviia.com/)        |               |         | Dropbox français. Payant, hébergé en France                              |
 
 : Resources de type Cloud {#tbl-cloud}
 
-[^1]: Pour projets. Demande a faire aupres de Julien Barde
-
-[^2]: Possibilite de demande d'un espace MARBEC
-
-[^3]: Possibilite de connexion avec login IRD et UM. Nécessité compte OneDrive
-
-[^4]: Phase de test, pas operationnel
-
-[^5]: Dropbox français. Payant, hébergé en France
-
-[^6]: Possibilité de présentation par la société (Claire Carré) Payant/hébergé en france
-
 ## Outils collaboratifs {.smaller .scrollable}
 
-| Fournisseur                                  | Utilisation                 | Partenariats externes |
-|-------------------------------|----------------------|-------------------|
-| [TEAMS](https://teams.microsoft.com/)        | Alternative a Slack         | Oui                   |
-| [IRD](https://tchat.ird.fr/home)             | Chat collaboratif           | Non                   |
-| [IFREMER](https://gitlabchat.ifremer.fr)[^7] | Alternative a Slack         | Non                   |
-| [CNRS](https://cnrs.citadel.team)[^8]        | Alternative a Slack         | Oui                   |
-| [FRAMATEAM](https://framateam.org)[^9]       |                             |                       |
-| [PAD IRD](https://pad.ird.fr)                | Prise de note collaborative | Oui                   |
-| [FRAMAPAD](https://pad.ird.fr)               | Prise de note collaborative |                       |
+| Fournisseur                               | Partenariats externes | Remarque                                                  |
+|---------------------------------|--------------------|--------------------|
+| [TEAMS](https://teams.microsoft.com/)     | Oui                   | Alternative a Slack                                       |
+| [IRD](https://tchat.ird.fr/home)          | Non                   | Chat collaboratif                                         |
+| [IFREMER](https://gitlabchat.ifremer.fr)  | Non                   | Alternative a Slack. S'appuie sur Mattermost              |
+| [CNRS](https://cnrs.citadel.team)         | Oui                   | Alternative a Slack. Outil Thales Group hébergé en France |
+| [WIMI](https://www.wimi-teamwork.com/fr/) |                       | Alternative a Slack.                                      |
+| [FRAMATEAM](https://framateam.org)        |                       | S'appuie sur Mattermost                                   |
+| [PAD IRD](https://pad.ird.fr)             | Oui                   | Prise de note collaborative                               |
+| [FRAMAPAD](https://pad.ird.fr)            |                       | Prise de note collaborative                               |
 
 : Resources pour travail collaboratif {#tbl-colab}
-
-[^7]: S'appuie sur Mattermost
-
-[^8]: Outil Thales Group hébergé en France
-
-[^9]: S'appuie sur Mattermost
 
 ## Discussion
 
@@ -133,16 +115,16 @@ Pour une bonne gestion des codes, utilisation de forges logicielles:
 -   [GitHub](https://github.com)
     -   Organization [MARBEC](https://github.com/umr-marbec)
 -   [Gitlab](https://gitlab.com/)
--   [Forge IRD](https://forge.ird.fr/explore): solution IRD basée sur GitLab[^10]
+-   [Forge IRD](https://forge.ird.fr/explore): solution IRD basée sur GitLab[^1]
 -   [Forge Ifremer](https://gitlab.ifremer.fr): solution Ifremer basée sur GitLab
 
-[^10]: Demande d'acces a faire par mail a [Julien Lebranchu](mailto:julien.lebranchu@ird.fr)
+[^1]: Demande d'acces a faire par mail a [Julien Lebranchu](mailto:julien.lebranchu@ird.fr)
 
 ## Licences {.smaller}
 
-Quel choix de licence pour les logiciels/des données[^11]?
+Quel choix de licence pour les logiciels/des données[^2]?
 
-[^11]: References: [1](https://www.data.gouv.fr/fr/pages/legal/licences/), [2](https://hal.science/hal-02434287), [3](https://hal.science/hal-02399517)
+[^2]: References: [1](https://www.data.gouv.fr/fr/pages/legal/licences/), [2](https://hal.science/hal-02434287), [3](https://hal.science/hal-02399517)
 
 -   Copyleft fort (GNU GPL, CeCILL-2.1)
 -   Copyleft faible (GNU LGPL, Mozilla MPL, CeCILL-C)
@@ -177,7 +159,7 @@ flowchart LR
 Inscriptions aux ateliers du DEN: [Google Sheet](https://docs.google.com/spreadsheets/d/18PXNxCAX1SNdk8Dqi0qC5FaayDYT_NVBLgMqegx5pgQ/edit?usp=sharing)
 
 | Formation             | Date                          | Formateur                                                   |
-|------------------|------------------|------------------------------------|
+|-------------------|-------------------|----------------------------------|
 | Git                   | 06/05/21, 11/05/2023          | Nicolas Barrier, Criscely Lujan-Paredes, Witold Podlejski   |
 | Datarmor              | 08/03/22                      | Nicolas Barrier                                             |
 | R                     | 10-11/03/22                   | Laure Velez, Monique Simier                                 |
