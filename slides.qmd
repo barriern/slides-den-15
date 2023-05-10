@@ -118,7 +118,7 @@ Pour une bonne gestion des codes, utilisation de forges logicielles:
 
 ![](img/copyleft.png){fig-align="center" width="500"}
 
-## Discussion
+## Discussion {.smaller}
 
 -   Quel canal pour la gestion des données à long terme?
     -   Zenodo? Solutions institutionnelles?
@@ -173,3 +173,7 @@ Formations cochées par $> 50$ personnes et jamais pourvues:
 -   Autres idées d'évènements?
 
     -   Participations à des évènements de type Ocean Hackathon?
+
+## Conclusion
+
+Autres points à discuter?

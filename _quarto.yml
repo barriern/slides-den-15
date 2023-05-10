@@ -1,6 +1,7 @@
 title: "Réunion DEN"
 format:
   revealjs:
+    smaller: false
     theme: [default, custom.scss]
 author:
     - name: Laure Velez
