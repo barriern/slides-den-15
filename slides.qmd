@@ -1,25 +1,22 @@
-
 # Bilan Marbec Green
 
 # Resources numériques
 
 ## Resources disponibles
 
-L'UMR MARBEC dispose de plusieurs ressources numériques pour le calcul et le stockage.
-
-Pour en bénéficier, il faut:
+L'UMR MARBEC dispose de plusieurs ressources numériques pour le calcul et le stockage. **Pour en bénéficier, il faut:**
 
 -   Adherer au DEN
--   Faire la demande auprès de [Laure Velez et Nicolas Barrier](mailto:laure.velez@umontpellier.fr,nicolas.barrier@ird.fr)
+-   En faire la demande auprès de [Laure Velez et Nicolas Barrier](mailto:laure.velez@umontpellier.fr,nicolas.barrier@ird.fr)
 -   Signer la charte du DEN (disponible sur le site MARBEC)
 
 ## Calcul {.smaller}
 
-| Resources  | Capacité                                                                        | Applications                       |
+| Resources  | Capacité                                                                 | Applications                       |
 |-------------------|----------------------------------|-------------------|
-| Marbec-GPU | 2 processeurs Xeon 8380 (40 coeurs / 80 threads), 1.5 To de mémoire vive         | Calcul sur GPU, i.e. deep learning |
-| Datarmor   | 11088 coeurs, 128 Go de RAM                                                      | Calcul sur CPU                     |
-| Meso\@LR   | 6 noeuds de 28 coeurs (bi processeurs Intel Xeon E5-2680 v4 2.4 Ghz (broadwell)) | Calcul sur CPU                     |
+| Marbec-GPU | 2 processeurs Xeon 8380 (40 coeurs / 80 threads), 1.5 To de mémoire vive | Calcul sur GPU, i.e. deep learning |
+| Datarmor   | 11088 coeurs, 128 Go de RAM                                              | Calcul sur CPU                     |
+| Meso\@LR   | 6 noeuds de 28 coeurs (bi processeurs Intel Xeon E5-2680 v4 2.4 Ghz)     | Calcul sur CPU                     |
 
 : Resources de calcul {#tbl-calcul}
 
@@ -35,40 +32,44 @@ Pour en bénéficier, il faut:
 
 ## Cloud {.smaller .scrollable}
 
-| Fournisseur                              | Stockage      | Edition | Remaque                                                                  |
+| Fournisseur                              | Stockage      | Edition | Remaque                                                                                       |
 |-------------------|------------------|------------------|------------------|
-| [IRD](https://drive.ird.fr)              | 5 To partages | Oui     | NextCloud. Pour projets. Demande a faire aupres de Julien Barde          |
-| [IFREMER](https://cloud.ifemer.fr)       | 5 Go/pers.    | Oui     | OwnCloud                                                                 |
-| [CNRS](https://mycore.core-cloud.net)    | 100 Go/pers.  | Oui     | OwnCloud. Possibilite de demande d'un espace MARBEC                      |
-| [TEAMS](https://teams.microsoft.com/)    |               | Oui     | Possibilite de connexion avec login IRD et UM. Nécessité compte OneDrive |
-| [RENATER](https://drive.demo.renater.fr) | 20 Go/pers.   | Oui     | NextCloud. Phase de test, pas opérationnel                               |
-| [LEVIIA](https://www.leviia.com/)        |               |         | Dropbox français. Payant, hébergé en France                              |
+| [IRD](https://drive.ird.fr)              | 5 To partages | Oui     | NextCloud. Pour projets. Demande à faire aupres de [Julien Barde](mailto:julien.barde@ird.fr) |
+| [IFREMER](https://cloud.ifemer.fr)       | 5 Go/pers.    | Oui     | OwnCloud                                                                                      |
+| [CNRS](https://mycore.core-cloud.net)    | 100 Go/pers.  | Oui     | OwnCloud. Possibilité de demande d'un espace MARBEC                                           |
+| [TEAMS](https://teams.microsoft.com/)    |               | Oui     | Possibilité de connexion avec login IRD et UM. Nécessité compte OneDrive                      |
+| [RENATER](https://drive.demo.renater.fr) | 20 Go/pers.   | Oui     | NextCloud. Phase de test, pas opérationnel                                                    |
+| [LEVIIA](https://www.leviia.com/)        |               |         | Dropbox français. Payant, hébergé en France                                                   |
 
 : Resources de type Cloud {#tbl-cloud}
 
 ## Outils collaboratifs {.smaller .scrollable}
 
-| Fournisseur                               | Partenariats externes | Remarque                                                  |
-|---------------------------------|--------------------|--------------------|
-| [TEAMS](https://teams.microsoft.com/)     | Oui                   | Alternative à Slack                                       |
-| [IRD](https://tchat.ird.fr/home)          | Non                   | Chat collaboratif                                         |
-| [IFREMER](https://gitlabchat.ifremer.fr)  | Non                   | Alternative à Slack. S'appuie sur Mattermost              |
-| [CNRS](https://cnrs.citadel.team)         | Oui                   | Alternative à Slack. Outil Thales Group hébergé en France |
-| [WIMI](https://www.wimi-teamwork.com/fr/) |                       | Alternative à Slack.                                      |
-| [FRAMATEAM](https://framateam.org)        |                       | S'appuie sur Mattermost                                   |
-| [PAD IRD](https://pad.ird.fr)             | Oui                   | Prise de note collaborative                               |
-| [FRAMAPAD](https://pad.ird.fr)            |                       | Prise de note collaborative                               |
+| Fournisseur                                            | Partenariats externes | Remarque                                                          |
+|--------------------------------|--------------------|--------------------|
+| [TEAMS](https://teams.microsoft.com/)                  | Oui                   | Alternative à Slack. Pour UM et IRD                               |
+| [TCHAT (IRD)](https://tchat.ird.fr/home)               | Non                   | Chat collaboratif                                                 |
+| [GITLAB CHAT (IFREMER)](https://gitlabchat.ifremer.fr) | Non                   | Alternative à Slack. S'appuie sur Mattermost                      |
+| [CITADEL (CNRS)](https://cnrs.citadel.team)            | Oui                   | Alternative à Slack. Outil Thales Group hébergé en France         |
+| [WIMI](https://www.wimi-teamwork.com/fr/)              |                       | Alternative à Slack. Hébergé en France. Fait aussi Drive.         |
+| [FRAMATEAM](https://framateam.org)                     |                       | S'appuie sur Mattermost. Pas dimensionné pour de grosses équipes. |
 
 : Resources pour travail collaboratif {#tbl-colab}
 
+```{=html}
+<!--
+| [PAD IRD](https://pad.ird.fr)             | Oui                   | Prise de note collaborative                                       |
+| [FRAMAPAD](https://pad.ird.fr)            |                       | Prise de note collaborative                                       | -->
+```
 ## Discussion
 
 -   Recommendations pour la direction?
 
     -   Utilisation des ressources institutionnelles?
-        - Hébergement en France (Montpellier, Lyon, Brest)
-        - Collaboration inter-tutelle?
-    -   Solutions mutualisées intra MARBEC (type WIMI, LEVIA, FRAMATEAM)?
+        -   Hébergement en France (Montpellier, Lyon, Brest)
+        -   Souveraineté des données
+        -   Collaboration inter-tutelle?
+    -   Solutions mutualisées MARBEC (type WIMI, LEVIA, FRAMATEAM)?
 
 -   Besoins non pourvus?
 
@@ -84,50 +85,56 @@ Référents : Julien Barde (IRD) et Julien Lebranchu (IRD)
 
 > L'objectif est d'aider ceux qui le souhaitent à répondre aux objectifs de la "Science Ouverte" et aux contraintes posées dans ce sens par les bailleurs (H2020, ANR) ou d'un point de vue juridique (plan national pour la science ouverte).
 
-## Gestion des données
+## Plan de gestion des données (DMP)
+
+Des DMPs sont parfois requis dans les appels à projet (BiodiverSea par exemple).
+
+-   Proposition d'un template de DMP pour MARBEC?
+-   Exemple d'outil pour en élaborer un: [DMP OPIDOR](<https://dmp.opidor.fr/>) (CNRS)
+    - Exemple: projet [SNO ReefTEMPS](https://doi.org/10.13155/94550)
+
+## Partage de données {.smaller}
 
 Plusieurs solutions existent pour une gestion pérenne des données.
 
--   [Entropot](https://entrepot.recherche.data.gouv.fr/) : solution nationale gérée par l'etat
-    -   Un entrepôt par institut: [IRD](https://entrepot.recherche.data.gouv.fr/dataverse/ird), [UM](https://entrepot.recherche.data.gouv.fr/dataverse/umontpellier)
--   [Datasud](https://dataverse.ird.fr/): solution IRD
--   [Seanoe/Sextant](http://data.ifremer.fr/Deposer-Archiver-des-donnees): solutions Ifremer
--   [Zenodo](https://zenodo.org)
-    -   Existence d'une [Communaute MARBEC](https://zenodo.org/communities/umr-marbec?page=1&size=20)
-    - Autres documents (rapports, présentations, etc.)
+| Solution                                                                | Description                                                                                                                                                                                |
+|------------------------------------|------------------------------------|
+| [Entropot](https://entrepot.recherche.data.gouv.fr/)                    | Solution nationale gérée par l'etat. Un entrepot pour [IRD](https://entrepot.recherche.data.gouv.fr/dataverse/ird) et [UM](https://entrepot.recherche.data.gouv.fr/dataverse/umontpellier) |
+| [Datasud](https://dataverse.ird.fr/)                                    | Solution IRD                                                                                                                                                                               |
+| [Archimer/Sextant](http://data.ifremer.fr/Deposer-Archiver-des-donnees) | Solutions Ifremer. S'appuie sur Seanoe                                                                                                                                                     |
+| [Odatis](https://www.odatis-ocean.fr/)                                  | Solution Inter-Organismes car proposée par une Infrastructure Nationale. S'appuie sur Seanoe                                                                                                                    |
+| [Zenodo](https://zenodo.org)                                            | Existence d'une [Communaute MARBEC](https://zenodo.org/communities/umr-marbec?page=1&size=20). Aussi pour autre chose que des données (rapports, présentations, etc.)                      |
+
+: Solutions de partage de données pérennes {#tbl-dataref}
 
 ## Gestion des codes
 
-Pour une bonne gestion des codes, utilisation de forges logicielles:
+Pour une bonne gestion des codes $\rightarrow%$ forges logicielles:
 
-- Solutions commerciales:
-    -   [GitHub](https://github.com) (organisation [MARBEC](https://github.com/umr-marbec))
-    -   [Gitlab](https://gitlab.com/)
-- Solutions institutionnelles:
+-   Solutions commerciales:
+    -   [GitHub](https://github.com) (organisation [MARBEC](https://github.com/umr-marbec)), [Gitlab](https://gitlab.com/)
+-   Solutions institutionnelles:
     -   [Forge IRD](https://forge.ird.fr/explore): solution IRD basée sur GitLab[^1]
     -   [Forge Ifremer](https://gitlab.ifremer.fr): solution Ifremer basée sur GitLab
+    -  [SourceSup](https://sourcesup.renater.fr): solution Renater, fonctionne pour Git et SVN
 
 [^1]: Demande d'accès à faire par mail a [Julien Lebranchu](mailto:julien.lebranchu@ird.fr)
 
 ## Licences
 
-- Quel choix de licence pour les logiciels/des données[^2]?
-- Arbre de décision pour accompagner les créateurs de logiciels/librairies?
+-   Quels choix de licence pour les logiciels/des données?
+-   Arbre de décision pour accompagner les créateurs de logiciels/librairies/données?
 
-[^2]: References: [1](https://www.data.gouv.fr/fr/pages/legal/licences/), [2](https://hal.science/hal-02434287), [3](https://hal.science/hal-02399517)
+![Description des grandes familles de licences. References: [1](https://www.data.gouv.fr/fr/pages/legal/licences/), [2](https://hal.science/hal-02434287), [3](https://hal.science/hal-02399517)](img/copyleft.png){#fig-licence fig-align="center" width="500"}
 
-![](img/copyleft.png){fig-align="center" width="500"}
 
-## Discussion {.smaller}
+## Discussion
 
 -   Quel canal pour la gestion des données à long terme?
     -   Zenodo? Solutions institutionnelles?
 -   Gestion des codes
-    - Forges commerciales?
-        - Plus de visibilité
-    - Forges institutionnelles?
-        - Moins visible, collaborateurs externes
-        - Plus de sécurité (hébergement local)
+    -   Forges commerciales?
+    -   Forges institutionnelles?
 -   Recommendations pour les licences?
 
 # Animation du DEN
@@ -148,7 +155,7 @@ Inscriptions aux ateliers du DEN: [Google Sheet](https://docs.google.com/spreads
 
 : Formations effectuées {#tbl-formations}
 
-## Formations!
+## Formations
 
 Formations cochées par $> 50$ personnes et jamais pourvues:
 
