@@ -81,7 +81,7 @@ Référents : Julien Barde (IRD) et Julien Lebranchu (IRD)
 
 > Le réseau "Sciences ouvertes" a pour objectif d'orienter les agents de l'UMR vers les bonnes pratiques de gestion des données (principes et data FAIR), des codes (contrôle de version) et des documents,
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/FAIR_data_principles.jpg/800px-FAIR_data_principles.jpg){fig-align="center" width="10px"}
+![](img/FAIR_data_principles.png){fig-align="center" width="10px"}
 
 > L'objectif est d'aider ceux qui le souhaitent à répondre aux objectifs de la "Science Ouverte" et aux contraintes posées dans ce sens par les bailleurs (H2020, ANR) ou d'un point de vue juridique (plan national pour la science ouverte).
 
